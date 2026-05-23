@@ -59,6 +59,7 @@ re-ingestion and collision-free multi-repo isolation in a shared vector collecti
 similarity threshold to suppress low-confidence retrievals.
 • Shipped end-to-end: FastAPI REST backend (/ingest, /query) with async thread offloading and a React/Tailwind chat UI featuring
 clickable citations that deep-link to GitHub source lines.
+
 #Guardrailed Enterprise AI Assistant with LangGraph (Responsible AI Pipeline)
 Stack: LangGraph · LangChain · OpenAI/Llama 3.1 · Presidio · FastAPI · Docker · Python
 • Built a production-oriented LLM assistant using LangGraph to orchestrate a multi-stage pipeline with dedicated safety, validation, and
